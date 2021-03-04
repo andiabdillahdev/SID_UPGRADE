@@ -1,0 +1,1 @@
+<a href="{{$url_edit}}" class="btn btn-icon waves-effect waves-light btn-xs btn-warning modalshowsSapras" data-toggle="tooltip" data-placement="right" title="" data-original-title="Edit Data"> <i class="glyphicon glyphicon-pencil"></i> </a>
