@@ -38,7 +38,7 @@
         <div class="col-md-12">
             <h3>Dokumentasi Surat</h3>
             @if (!is_null($model->file))
-        <img src="{{ asset('ubold/filedocMail/suratkeluar/'.$model->file) }}" class="img-thumbnail">
+        <img src="{{ asset('ubold/filedocMail/suratmasuk/'.$model->file) }}" class="img-thumbnail">
         @else
             <p>Tidak Ada Dokumentasi</p>
         @endif

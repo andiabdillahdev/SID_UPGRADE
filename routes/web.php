@@ -25,6 +25,9 @@ Route::get('/sid/peta', 'wilayahpetaController@indexpeta')->name('info.peta');
 Route::get('/table/dusun','wilayahpetaController@dataTable')->name('table.dusun');
 
 Route::resource('/sid/aparat', 'aparatController');
+
+// Aparat
+
 Route::post('/sid/tampungAparat','aparatController@tampungAparat')->name('aparat.tampung');
 Route::get('/table/aparat','aparatController@dataTable')->name('table.aparat');
 

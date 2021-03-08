@@ -461,7 +461,7 @@ $('body').on('click','#simpanAparat', function () {
         url = form.attr('action'),
         red = $('#formAparat a').attr('href'),
         method = $('input[name=_method]').val() == undefined ? 'PUT' : 'POST';
-       
+       console.log(method);
         $.ajax({
             url : url,
             method : method,
@@ -475,19 +475,11 @@ $('body').on('click','#simpanAparat', function () {
             success : function (response) {
                 $('.dangerAparat').css('display','none');
 
-                if (method == 'POST') {
-                    swal({
-                        type : 'success',
-                        title : 'Data Pemerintah Desa',
-                        text : 'Berhasil di Input'
-                    })
-                }else{
-                    swal({
-                        type : 'success',
-                        title : 'Data Pemerintah Desa',
-                        text : 'Berhasil di Update'
-                    })
-                }
+                swal({
+                    type : 'success',
+                    title : 'Data Pemerintah Desa',
+                    text : 'Berhasil di Input'
+                })
 
                 setTimeout(function () {
                     window.location.href = red
@@ -505,7 +497,7 @@ $('body').on('click','#simpanAparat', function () {
                     confirmButtonClass: 'btn-danger btn-md waves-effect waves-light',
                 })
          
-
+                $("#loader").hide();
                 var res = xhr.responseJSON;
                 if ($.isEmptyObject(res) == false) {
                    

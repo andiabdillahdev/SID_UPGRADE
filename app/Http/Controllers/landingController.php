@@ -23,6 +23,9 @@ use App\penduduk;
 use App\potensi;
 use App\aparat;
 use App\lembaga;
+use App\Pendapatan;
+use App\Belanja;
+use App\Pembiayaan;
 
 class landingController extends Controller
 {
@@ -35,7 +38,6 @@ class landingController extends Controller
     }
 
     public function kabardesa(){
-
         SEOMeta::setTitle('Kabar Desa');
         SEOMeta::setDescription('Website Desa Anrang Kabupaten Bulukumba');
         SEOMeta::addKeyword(['Desa Anrang', 'Web Desa Bulukumba', 'Desa Anrang Rilau Ale',' Kecamatan Rilau Ale','Anrang','Bulumkumba','desa anrang','anrang desa','Website Desa','Digital Desa']);
@@ -199,7 +201,13 @@ class landingController extends Controller
         SEOMeta::setTitle('APBDES');
         SEOMeta::setDescription('Website Desa Anrang Kabupaten Bulukumba');
         SEOMeta::addKeyword(['Desa Anrang', 'Web Desa Bulukumba', 'Desa Anrang Rilau Ale',' Kecamatan Rilau Ale','Anrang','Bulumkumba','desa anrang','anrang desa','Website Desa','Digital Desa']);
-        return view('landing.apbdes.index');
+   
+        $data = [
+            'penerimaan' => Pendapatan::all(),
+            'belanja' => Belanja::all(),
+            'pembiayaan' => Pembiayaan::all()
+        ];
+        return view('landing.apbdes.index',compact('data'));
     }
 
     public function tentang(){
