@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  {{-- <title>Desa Anrang</title>
+   <title>Desa Lembang Lohe</title>
   <meta content="" name="descriptison">
-  <meta content="" name="keywords"> --}}
+  <meta content="" name="keywords"> 
 
-  {!! SEOMeta::generate() !!}
+<!--   {!! SEOMeta::generate() !!} -->
 
   <!-- Favicons -->
 <link href="{{ asset('front/img/logo_bulkum.png') }}" rel="icon">
@@ -44,7 +44,7 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="mailto:contact@example.com">anrang@gmail.com</a>
+        <i class="icofont-envelope"></i><a href="mailto:contact@example.com">lembanglohe@gmail.com</a>
         <i class="icofont-phone"></i> 081xxxxxxx
       </div>
       <div class="social-links">
@@ -64,7 +64,7 @@
       <div class="logo mr-auto">
         <div class="row">
           <img src="{{ asset('front/img/logo_bulkum.png') }}" alt="" style="width:35px; margin-right:10px; padding:2px;"> 
-          <h1 class="text-light"><a href="index.html"><span>DESA ANRANG</span></a></h1>
+          <h1 class="text-light"><a href="index.html"><span>DESA Lembang Lohe</span></a></h1>
         </div>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -82,7 +82,7 @@
           </li>
           <li class="drop-down"><a href="#">Tentang</a>
             <ul>
-            <li><a href="{{ route('tentang.landing') }}">Tentang Desa Anrang</a></li>
+            <li><a href="{{ route('tentang.landing') }}">Tentang Desa Lembang Lohe</a></li>
             <li><a href="{{ route('potensi.landing') }}">Potensi Desa</a></li>
             </ul>
           </li>
@@ -136,7 +136,7 @@
             <h4>Kontak Kami</h4>
             <p>
              Jl. Mattoanging <br>
-              Desa Anrang, Kecamatan Rilau Ale<br>
+              Desa Lembang Lohe, Kecamatan Rilau Ale<br>
               Kabupaten Bulukumba <br><br>
               <strong>No HP:</strong> 085xxxxx<br>
               <strong>Email:</strong> info@example.com<br>
@@ -145,8 +145,8 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Tentang Desa Anrang</h3>
-            <p>Anrang adalah desa di kecamatan Rilau Ale, Kabupaten Bulukumba, Sulawesi Selatan, Indonesia. Desa ini dialiri oleh sungai Balantieng, yang memiliki potensi pertambangan pasir dan batu sungai</p>
+            <h3>Tentang Desa Lembang Lohe</h3>
+            <p>Lembang Lohe adalah desa di kecamatan Rilau Ale, Kabupaten Bulukumba, Sulawesi Selatan, Indonesia. Desa ini dialiri oleh sungai Balantieng, yang memiliki potensi pertambangan pasir dan batu sungai</p>
         
           </div>
 

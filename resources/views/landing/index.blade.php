@@ -14,8 +14,8 @@
           <div class="carousel-item active" style="background: url(front/img/slide/slideone.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Selamat Datang di Website Desa Anrang</h2>
-                <p class="animate__animated animate__fadeInUp">Kecamatan Rilau Ale, Kabupaten Bulukumba</p>
+                <h2 class="animate__animated animate__fadeInDown">Selamat Datang di Website Desa Lembang Lohe</h2>
+                <p class="animate__animated animate__fadeInUp">Kecamatan Kajang, Kabupaten Bulukumba</p>
                 <a href="" class="btn-get-started animate__animated animate__fadeInUp">Telusuri</a>
               </div>
             </div>
@@ -25,8 +25,8 @@
           <div class="carousel-item" style="background: url(front/img/slide/slidetwo.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated fanimate__adeInDown">Pusat Informasi Desa Anrang </h2>
-                <p class="animate__animated animate__fadeInUp">Kecamatan Rilau Ale, Kabupaten Bulukumba</p>
+                <h2 class="animate__animated fanimate__adeInDown">Pusat Informasi Desa Lembang Lohe </h2>
+                <p class="animate__animated animate__fadeInUp">Kecamatan Kajang, Kabupaten Bulukumba</p>
                 <a href="" class="btn-get-started animate__animated animate__fadeInUp">Telusuri</a>
               </div>
             </div>
@@ -93,17 +93,18 @@
 
         <div class="row">
           <div class="col-lg-4">
-          <img src="{{ asset('front/img/kepdes.png') }}" style="width:200px" alt="">
-          <p class="mt-3"><b>Bahtiar, S.Sos</b>, Kepala Desa Anrang, Kecamatan Rilau Ale, Kabupaten Bulukumba</p>
+        <!--   <img src="{{ asset('front/img/kepdes.png') }}" style="width:200px" alt=""> -->
+          <img src="{{ asset('front/img/default-user.png') }}" style="width:200px" alt="">
+          <p class="mt-3"><b>Bahtiar, S.Sos</b>, Kepala Desa Lembang Lohe, Kecamatan Kajang, Kabupaten Bulukumba</p>
           </div>
 
           <div class="col-lg-8">
             <p>Sejalan dengan penerapan informasi dalam pelayanan publik, maka Web Site Desa Gembyang yang dibangun ini merupakan suatu tuntutan Teknologi Informasi (TI) yang berkembang pesat pada saat ini. Website ini berisikan informasi-informasi yang dapat diakses masyarakat pengguna internet yang merupakan tindak lanjut dari Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik.</p>
-            <p>Tujuan terbangunnya Website desa Anrang ini adalah :</p>
+            <p>Tujuan terbangunnya Website desa Lembang Lohe ini adalah :</p>
             <ul>
-              <li>Memajukan peradaban masyarakat di Desa Anrang</li>
+              <li>Memajukan peradaban masyarakat di Desa Lembang Lohe</li>
               <li>Memberikan informasi seluas-luasnya kepada masyarakat</li>
-              <li>Sebagai sarana komunikasi antara warga masyarakat dengan Pemerintah Desa Anrang</li>
+              <li>Sebagai sarana komunikasi antara warga masyarakat dengan Pemerintah Desa Lembang Lohe</li>
             </ul>
           </div>
         </div>
@@ -119,8 +120,11 @@
           <h2>Peta Desa</h2>
         </div>
    
+
+
         <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63552.380279053476!2d120.10491786990518!3d-5.4133505951099625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbea8138a700fb3%3A0xd9e32bcde11facca!2sAnrang%2C%20Rilau%20Ale%2C%20Kabupaten%20Bulukumba%2C%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1598446093928!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:2px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <!--   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63552.380279053476!2d120.10491786990518!3d-5.4133505951099625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbea8138a700fb3%3A0xd9e32bcde11facca!2sAnrang%2C%20Rilau%20Ale%2C%20Kabupaten%20Bulukumba%2C%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1598446093928!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:2px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31779.41384578149!2d120.34029684020138!3d-5.351660972785152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbc106288512dbf%3A0x19138a3c4173cbb5!2sLembang%20Lohe%2C%20Kajang%2C%20Kabupaten%20Bulukumba%2C%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1615258367251!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
       </div>

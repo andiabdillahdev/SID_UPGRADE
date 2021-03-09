@@ -8,9 +8,9 @@
   
           <ol>
             <li><a href="javascript:;">Tentang</a></li>
-            <li>Tentang Desa Anrang</li>
+            <li>Tentang Desa Lembang Lohe</li>
           </ol>
-          <h2>Tentang Desa Anrang</h2>
+          <h2>Tentang Desa Lembang Lohe</h2>
   
         </div>
       </section><!-- End Breadcrumbs -->
@@ -20,7 +20,7 @@
         <div class="container">
 
             <div class="row">
-                <p>Anrang adalah desa di kecamatan Rilau Ale, Kabupaten Bulukumba, Sulawesi Selatan, Indonesia. Desa ini dialiri oleh sungai Balantieng, yang memiliki potensi pertambangan pasir dan batu sungai</p>
+                <p>Lembang Lohe adalah desa di kecamatan Rilau Ale, Kabupaten Bulukumba, Sulawesi Selatan, Indonesia. Desa ini dialiri oleh sungai Balantieng, yang memiliki potensi pertambangan pasir dan batu sungai</p>
             </div>
   
         </div>

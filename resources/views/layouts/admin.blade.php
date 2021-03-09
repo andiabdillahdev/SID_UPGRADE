@@ -9,7 +9,7 @@
 
         <link rel="shortcut icon" href="{{ asset('ubold/asetImg/ico.png') }}">
 
-        <title>Admin Desa Seppang</title>
+        <title>Admin Desa Lembang Lohe</title>
 
     <link href="{{ asset('ubold/assets/plugins/summernote/summernote.css') }}" rel="stylesheet" />
         
@@ -51,7 +51,7 @@
                 <!-- LOGO -->
                 <div class="topbar-left">
                     <div class="text-center">
-                    <a href="{{ url('/home') }}" class="logo"><i class="icon-magnet icon-c-logo"></i><span>Desa Anrang</a>
+                    <a href="{{ url('/home') }}" class="logo"><i class="icon-magnet icon-c-logo"></i><span>Desa Lembang Lohe</a>
                         <!-- Image Logo here -->
                         {{-- <a href="index.html" class="logo">
                             <i class="icon-c-logo"> <img src="ubold/assets/images/logo_sm.png" height="42"/> </i>
