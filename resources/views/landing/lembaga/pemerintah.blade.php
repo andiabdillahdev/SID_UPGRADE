@@ -39,7 +39,8 @@
                     <div id="home" class="container tab-pane active"><br>
                       <div class="row">
                         <div class="col-lg-12">
-                          <img src="{{ asset('front/img/bagan.png') }}" alt="" style="width: 100%;">
+                          <!-- <img src="{{ asset('front/img/bagan.png') }}" alt="" style="width: 100%;"> -->
+                          Belum Ada Bagan
                         </div>
                       </div>
                   
