@@ -460,8 +460,7 @@ $('body').on('click','#simpanAparat', function () {
     var form = $('#formAparat form'),
         url = form.attr('action'),
         red = $('#formAparat a').attr('href'),
-        method = $('input[name=_method]').val() == undefined ? 'PUT' : 'POST';
-       console.log(method);
+        method = form.attr('method')
         $.ajax({
             url : url,
             method : method,
