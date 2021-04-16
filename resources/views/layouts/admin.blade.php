@@ -7,7 +7,6 @@
         <meta name="author" content="Coderthemes">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="host_url" content="{{ url('/') }}">
-
         <link rel="shortcut icon" href="{{ asset('ubold/asetImg/ico.png') }}">
 
         <title>Admin Desa Seppang</title>
@@ -462,7 +461,7 @@
 
     {{-- <script src="{{ asset('ubold/assets/pages/jquery.dashboard_2.js') }}"></script> --}}		
   <!-- google maps api -->
-  <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  {{-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script> --}}
   <!-- main file -->
     <script src="{{ asset('ubold/assets/plugins/gmaps/gmaps.min.js') }}"></script>
   <!-- demo codes -->
