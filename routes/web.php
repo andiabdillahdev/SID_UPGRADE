@@ -24,7 +24,14 @@ Route::resource('/sid/wilayah', 'wilayahpetaController');
 Route::get('/sid/peta', 'wilayahpetaController@indexpeta')->name('info.peta');
 Route::get('/table/dusun','wilayahpetaController@dataTable')->name('table.dusun');
 
-Route::resource('/sid/aparat', 'aparatController');
+// Route::resource('/sid/aparat', 'aparatController');
+Route::get('/sid/aparat','aparatController@index')->name('aparat.index');
+Route::post('/sid/aparat/store','aparatController@store')->name('aparat.store');
+Route::get('/sid/aparat/create','aparatController@create')->name('aparat.create');
+Route::get('/sid/aparat/show/{aparat}','aparatController@show')->name('aparat.show');
+Route::put('/sid/aparat/update/{aparat}','aparatController@update')->name('aparat.update');
+Route::get('/sid/aparat/{aparat}','aparatController@destroy')->name('aparat.destroy');
+Route::get('/sid/aparat/{aparat}/edit','aparatController@edit')->name('aparat.edit');
 
 // Aparat
 

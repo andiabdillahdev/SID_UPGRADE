@@ -78,6 +78,7 @@
 @push('scripts')
 
 <script>
+       var host = $('meta[name="host_url"]').attr('content');
     $('#datatableAparat').DataTable({
         responsive : true,
         processing : true,
@@ -91,7 +92,7 @@
                 "name": "gambar",
                 "data": "gambar",
                 "render": function (data, type, full, meta) {
-                    return "<img src=\"/ubold/asetImg/fileUpload/fotoAparat/" + data + "\" height=\"50\"/>";
+                    return `<img src="${host}/ubold/asetImg/fileUpload/fotoAparat/${data}" height="50" />`
                 },
                 "title": "Image",
                 "orderable": true,
@@ -101,6 +102,5 @@
         ]
     });
 </script>
-
 @endpush
 
